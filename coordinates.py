@@ -5,16 +5,16 @@ from math import radians, cos, sin, asin, sqrt
 videoPath = "testing2.mp4"
 quad_coords = {
     "lonlat": np.array([
-        [5.974829, 45.526886], #  top right ZNAK
-        [5.974154, 45.527237], #BP TOP LEFT
-        [5.974756, 45.526366], #BOTTOM LEFT KANALIZACJA
-        [5.975188, 45.526461] # DZYNDZEK NA BARIERCE
+        [5.974829, 45.526886],
+        [5.974154, 45.527237], 
+        [5.974756, 45.526366], 
+        [5.975188, 45.526461] 
     ]),
     "pixel": np.array([
-        [830, 341], # Third lampost top right
-        [530, 297], # Corner of white rumble strip top left
-        [215, 409], # Corner of rectangular road marking bottom left
-        [998, 448] # Corner of dashed line bottom right
+        [830, 341],
+        [530, 297],
+        [215, 409], 
+        [998, 448] 
     ])
 }
 class PixelMapper(object):
